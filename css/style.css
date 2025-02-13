@@ -6359,6 +6359,10 @@ a.close.disabled {
   background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg);
 }
 
+.bg-blue {
+  background-color: #0d6efd!important;
+}
+
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
