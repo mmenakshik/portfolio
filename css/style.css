@@ -11182,6 +11182,44 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+/*#17263C*/
+
+.btn-outline-gray {
+  color: #fff;
+  background-color: #17263C;
+  border-color: #17263C;
+}
+
+.btn-outline-gray:hover {
+  color: #17263C;
+  border-color: #17263C;
+  background-color: transparent;
+}
+
+.btn-outline-gray:focus,
+.btn-outline-gray.focus {
+  box-shadow: 0 0 0 0.2rem rgba(11, 206, 175, 0.5);
+}
+
+.btn-outline-gray.disabled,
+.btn-outline-gray:disabled {
+  color: #17263C;
+  background-color: transparent;
+}
+
+.btn-outline-gray:not(:disabled):not(.disabled):active,
+.btn-outline-gray:not(:disabled):not(.disabled).active,
+.show>.btn-outline-gray.dropdown-toggle {
+  color: #fff;
+  background-color: #17263C;
+  border-color: #17263C;
+}
+
+.btn-outline-gray:not(:disabled):not(.disabled):active:focus,
+.btn-outline-gray:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-gray.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(11, 206, 175, 0.5);
+}
 
 .mainHeading {
   font-family: "Encode Sans Condensed", serif;
