@@ -48,7 +48,8 @@
                 <a href="#testimonial" class="nav-item nav-link">Review</a>
                 <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="meenakshiKashyap_frontendDeveloper_resume.pdf" target="_blank"
+           <!--<a href="meenakshiKashyap_frontendDeveloper_resume.pdf" target="_blank"--> 
+           <a href="#" target="_blank"
                 class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
         </div>
     </nav>
@@ -85,7 +86,7 @@
                         </div>
                         <!-- <div class="col-sm-4 col-xs-12 mb-2">
                             <a class="btn btn-light btn-social mr-2"><i class="fas fa-phone-alt"></i></a>
-                            <a class="text-light" href="tel:9643464024">9643464024</a>
+                            <a class="text-light" href="tel:"></a>
                         </div> -->
                         <div class="col-sm-12 col-xs-12 mb-2">
                             <a class="btn btn-light btn-social mr-2"><i class="fab fa-linkedin-in"></i></a>
@@ -95,7 +96,8 @@
                     </div>
 
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-3">
-                        <a href="meenakshiKashyap_frontendDeveloper_resume.pdf" target="_blank"
+                    <!-- <a href="meenakshiKashyap_frontendDeveloper_resume.pdf" target="_blank"-->
+                        <a href="#" target="_blank"
                             class="btn btn-outline-light mr-2">Download Resume</a>
                         <a href="mailto:meenakshikashyap842@gmail.com" class="btn btn-light mr-5">Contact me</a>
                     </div>
@@ -130,7 +132,8 @@
                         GitHub, cloud technologies like AWS, and UI frameworks such as Material UI and Bootstrap.</p>
                     <p>I am passionate about learning new technologies and improving user experiences through clean
                         code, performance optimization, and accessibility best practices. </p>
-                    <a href="meenakshiKashyap_frontendDeveloper_resume.pdf" target="_blank"
+                   <!-- <a href="meenakshiKashyap_frontendDeveloper_resume.pdf" target="_blank"-->
+                   <a href="#" target="_blank"
                         class="btn btn-outline-primary mr-4">Hire Me</a>
                 </div>
             </div>
@@ -515,44 +518,29 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="contact-form text-center">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="form-row">
+                       <!-- <form id="myForm" action="https://formspree.io/f/meoerjkq" method="POST">-->
+                            <form>
+                            <div class="form-row mb-3">
                                 <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-light"></p>
+                                    <input type="text" class="form-control p-4" name="name" placeholder="Name"
+                                        autocomplete="on" required="required" />
                                 </div>
                                 <div class="control-group col-sm-6">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
-                                        required="required"
-                                        data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-light"></p>
+                                    <input type="email" class="form-control p-4" name="email" placeholder="Email"
+                                        autocomplete="on" required="required" />
                                 </div>
                             </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
-                                    required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-light"></p>
+                            <div class="control-group mb-3">
+                                <input type="text" class="form-control p-4" name="subject" placeholder="Subject"
+                                    autocomplete="on" required="required" />
                             </div>
-                            <div class="control-group">
-                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
-                                    required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-light"></p>
+                            <div class="control-group mb-3">
+                                <textarea class="form-control py-3 px-4" rows="5" name="message" placeholder="Message"
+                                    autocomplete="on" required="required"></textarea>
                             </div>
                             <div>
-                                <button class="btn btn-outline-gray" type="submit" id="sendMessageButton">Send
-                                    Message</button>
+                                <button class="btn btn-outline-gray" type="submit">Send Message</button>
                             </div>
-                        </form>
-
-                        <form action="https://formsubmit.co/meenakshikashyap842@gmail.com" method="POST">
-                            <input type="text" name="name" required placeholder="Your Name">
-                            <input type="email" name="email" required placeholder="Your Email">
-                            <input type="text" name="subject" required placeholder="Subject">
-                            <textarea name="message" required placeholder="Message"></textarea>
-                            <button type="submit">Send Message</button>
                         </form>
                     </div>
                 </div>
