@@ -11244,6 +11244,10 @@ h6,
   background-color: #17263C;
 }
 
+.img-border img {
+  border: 1px solid #e4e4e4;
+}
+
 @media only screen and (max-width: 600px) {
   .hide-section {
     display: none;
